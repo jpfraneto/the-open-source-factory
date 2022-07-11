@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>The Open Source Factory</title>
-        <meta name='description' content='Serving One Audience Every M' />
+        <meta name='description' content='Serving One Audience Every Month' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 

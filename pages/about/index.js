@@ -24,7 +24,7 @@ const About = () => {
         </li>
         <li>
           The first iterations of this project will have little demand (it
-          doesn't exist yet). My vision for its future is that it will bring a
+          doesnt exist yet). My vision for its future is that it will bring a
           lot of people together
         </li>
       </ul>
