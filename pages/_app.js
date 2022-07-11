@@ -1,7 +1,18 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const router = useRouter();
+  return (
+    <>
+      <Component {...pageProps} />
+      {/* <nav>
+        <span className='bottomNav' onClick={() => router.back()}>
+          Go Back
+        </span>
+      </nav> */}
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
