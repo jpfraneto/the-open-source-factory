@@ -39,3 +39,20 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+
+.learnMoreBtn {
+  margin-top: 10px;
+  padding: 8px 12px 5px;
+  border-radius: 5px;
+  border: black 1px solid;
+  font-size: 1.6rem;
+}
+
+.learnMoreBtn:hover {
+  background-color: rgba(255, 255, 255, 0.271);
+  transform: translateY(-2px);
+}
+
+.learnMoreBtn:active {
+  transform: translateY(-1px);
+}

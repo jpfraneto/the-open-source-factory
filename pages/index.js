@@ -12,33 +12,23 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className={styles.main}>
-        <h2 className={styles.title}>THE OPEN SOURCE FACTORY</h2>
-        <h5 className={styles.subtitle}>
-          Bootcamping, reimagined: We learn by{' '}
-          <span className={styles.rainbowText}>BUILDING</span>.
-        </h5>
-
-        {/* <ul className={styles.links}>
-          <Link href='about'>
-            <a>About</a>
-          </Link>
-          <Link href='/docs'>
-            <a>Docs</a>
-          </Link>
-          <Link href='/podcast'>
-            <a>Podcast</a>
-          </Link>
-          <Link href='/apply'>
-            <a>Apply</a>
-          </Link>
-          <Link href='/ideas'>
-            <a>Ideas</a>
-          </Link>
-          <Link href='/tools'>
-            <a>Tools</a>
-          </Link>
-        </ul> */}
+      <main>
+        <section className={styles.main}>
+          <h2 className={styles.title}>THE OPEN SOURCE FACTORY</h2>
+          <h5 className={styles.subtitle}>
+            Bootcamping, reimagined: We learn by{' '}
+            <span className={styles.rainbowText}>BUILDING</span>.
+          </h5>
+          <a
+            href='https://calendly.com/jpfraneto/the-open-source-factory?back=1&month=2022-07'
+            target='_blank'
+            rel='noreferrer'
+            className={styles.learnMoreBtn}
+          >
+            Learn More...
+          </a>
+        </section>
+        <section className={styles.secondSection}></section>
       </main>
     </div>
   );
