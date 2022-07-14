@@ -56,3 +56,11 @@
 .learnMoreBtn:active {
   transform: translateY(-1px);
 }
+
+.btnscontainer {
+  margin-top: 10px;
+}
+
+.btnscontainer > * {
+  margin: 0 8px;
+}

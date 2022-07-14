@@ -19,14 +19,25 @@ export default function Home() {
             Bootcamping, reimagined: We learn by{' '}
             <span className={styles.rainbowText}>BUILDING</span>.
           </h5>
-          <a
-            href='https://calendly.com/jpfraneto/the-open-source-factory?back=1&month=2022-07'
-            target='_blank'
-            rel='noreferrer'
-            className={styles.learnMoreBtn}
-          >
-            Learn More...
-          </a>
+          <div className={styles.btnscontainer}>
+            {' '}
+            <a
+              href='https://www.jpfraneto.com/'
+              target='_blank'
+              rel='noreferrer'
+              className={styles.learnMoreBtn}
+            >
+              Old projects
+            </a>
+            <a
+              href='https://calendly.com/jpfraneto/the-open-source-factory?back=1&month=2022-07'
+              target='_blank'
+              rel='noreferrer'
+              className={styles.learnMoreBtn}
+            >
+              Learn More...
+            </a>
+          </div>
         </section>
         <section className={styles.secondSection}></section>
       </main>
