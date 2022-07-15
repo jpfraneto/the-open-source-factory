@@ -22,7 +22,7 @@ export default function Home() {
           <div className={styles.btnscontainer}>
             {' '}
             <a
-              href='https://www.jpfraneto.com/'
+              href='https://www.jpfraneto.com/#portfolio'
               target='_blank'
               rel='noreferrer'
               className={styles.learnMoreBtn}
