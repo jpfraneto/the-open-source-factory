@@ -37,6 +37,14 @@ export default function Home() {
             >
               Learn More...
             </a>
+            <a
+              href='https://open.spotify.com/show/2nJcByumPsLWVYqdEwcPUA?si=742b405a76e249bc'
+              target='_blank'
+              rel='noreferrer'
+              className={styles.learnMoreBtn}
+            >
+              Into Tech Podcast
+            </a>
           </div>
         </section>
         <section className={styles.secondSection}></section>
