@@ -64,3 +64,25 @@
 .btnscontainer > * {
   margin: 0 8px;
 }
+
+.building {
+  text-align: center;
+  font-size: 2rem;
+  background-color: bisque;
+  border: solid black 2px;
+  margin-top: 20px;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.building p {
+  margin: 0;
+}
+
+.spreaditBtn {
+  color: purple;
+}
+
+.spreaditBtn:hover {
+  color: rgb(201, 1, 201);
+}

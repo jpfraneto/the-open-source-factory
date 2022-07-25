@@ -46,6 +46,15 @@ export default function Home() {
               Into Tech Podcast
             </a>
           </div>
+          <div className={styles.building}>
+            <p>
+              This cycle:{' '}
+              <Link href='/spreadit'>
+                <a className={styles.spreaditBtn}>www.spreadit.pro</a>
+              </Link>
+            </p>
+            <span>Shipping date: 11 August, 09:35 pm Eastern Time </span>
+          </div>
         </section>
         <section className={styles.secondSection}></section>
       </main>

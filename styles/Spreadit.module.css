@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 777px;
+}
+
+.container h2 {
+  margin-right: auto;
+}
+
+.container p {
+  font-family: 'Work Sans', sans-serif;
+  margin-right: auto;
+  margin: 10px auto 10px 0;
+}
+
+.container ul {
+  list-style-type: none;
+  margin-right: auto;
+}
+
+.container li {
+  font-family: 'Work Sans', sans-serif;
+}
