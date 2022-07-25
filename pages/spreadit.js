@@ -11,26 +11,26 @@ const Spreadit = () => {
         The motivation behind this project is for me to become the best software
         engineer that I can. I know that growth lies in the space on which
         challenge is, and for me trying to bring myself into a team of highly
-        competent software engineers is the means by which I stretch what I'm
-        capable of doing. I don't feel qualified at all for the job, and that is
-        precisely why I'm doing what I'm doing.
+        competent software engineers is the means by which I stretch what
+        I&apos;m capable of doing. I don&apos;t feel qualified at all for the
+        job, and that is precisely why I&apos;m doing what I&apos;m doing.
       </p>
       <p>
-        I really don't care. I'm beginning to learn that shooting for the stars
-        is the means by which I will make my way through this enormous
+        I really don&apos;t care. I&apos;m beginning to learn that shooting for
+        the stars is the means by which I will make my way through this enormous
         ecosystem.{' '}
       </p>
       <p>
         For applying for the job I had to complete a homework, which I felt -and
-        still feel- that is out of my reach as a programmer. I don't really know
-        how to do it. But what I have learned by teaching myself how to code is
-        that there are no impossibles. There are only different ways of
+        still feel- that is out of my reach as a programmer. I don&apos;t really
+        know how to do it. But what I have learned by teaching myself how to
+        code is that there are no impossibles. There are only different ways of
         approaching a problem, and the consistency and capacity to be able to
         grind through it as I use more and more of my creativity, problem
         solving skills, and curiosity to be able to build something that does
         the work.{' '}
       </p>
-      <p>I'm building this whole system as an answer to that.</p>
+      <p>I&apos;m building this whole system as an answer to that.</p>
       <p>
         They said that it is not necessary to do documentation, or user
         interface, but I have learned through my experience that I like doing
@@ -39,21 +39,30 @@ const Spreadit = () => {
         up with. I know that it may be overkill, but it is the best I can do.
       </p>
       <p>
-        Worst case scenario: I don't get the job, but I practiced a lot my
+        Worst case scenario: I don&apos;t get the job, but I practiced a lot my
         skills of building systems with which people can interact. That is my
-        mission for becoming a developer, and it is why I'm here.
+        mission for becoming a developer, and it is why I&apos;m here.
       </p>
       <h2>What the app is about</h2>
       <p>Spreadit consists of three main parts:</p>
       <ul>
         <li>
-          The Front End: <a>www.spreadit.pro</a>
+          The Front End:{' '}
+          <a href='https://www.spreadit.pro' target='_blank' rel='noreferrer'>
+            www.spreadit.pro
+          </a>
         </li>
         <li>
-          The Back End: <a>api.spreadit.pro</a>
+          The Back End:{' '}
+          <a href='https://api.spreadit.pro' target='_blank' rel='noreferrer'>
+            api.spreadit.pro
+          </a>
         </li>
         <li>
-          The Documentation: <a>docs.spreadit.pro</a>
+          The Documentation:{' '}
+          <a href='https://docs.spreadit.pro' target='_blank' rel='noreferrer'>
+            docs.spreadit.pro
+          </a>
         </li>
       </ul>
       <p>
