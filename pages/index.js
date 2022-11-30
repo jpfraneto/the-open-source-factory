@@ -17,43 +17,18 @@ export default function Home() {
           <h2 className={styles.title}>THE OPEN SOURCE FACTORY</h2>
           <h5 className={styles.subtitle}>
             Bootcamping, reimagined: We learn by{' '}
-            <span className={styles.rainbowText}>BUILDING</span>.
+            <span className={styles.rainbowText}>BUILDING</span> IN TEAMS.
           </h5>
           <div className={styles.btnscontainer}>
             {' '}
             <a
-              href='https://www.jpfraneto.com/#portfolio'
+              href='https://cryptic-hollows-96549.herokuapp.com/'
               target='_blank'
               rel='noreferrer'
               className={styles.learnMoreBtn}
             >
-              Old projects
+              First iteration
             </a>
-            <a
-              href='https://calendly.com/jpfraneto/the-open-source-factory?back=1&month=2022-07'
-              target='_blank'
-              rel='noreferrer'
-              className={styles.learnMoreBtn}
-            >
-              Learn More...
-            </a>
-            <a
-              href='https://open.spotify.com/show/2nJcByumPsLWVYqdEwcPUA?si=742b405a76e249bc'
-              target='_blank'
-              rel='noreferrer'
-              className={styles.learnMoreBtn}
-            >
-              Into Tech Podcast
-            </a>
-          </div>
-          <div className={styles.building}>
-            <p>
-              This cycle:{' '}
-              <Link href='/spreadit'>
-                <a className={styles.spreaditBtn}>www.spreadit.pro</a>
-              </Link>
-            </p>
-            <span>Shipping date: 11 August, 09:35 pm Eastern Time </span>
           </div>
         </section>
         <section className={styles.secondSection}></section>
